@@ -375,4 +375,11 @@
 //var gen = new GeneticAlgorithm(toolbox, popSize, mutProb, breedFunction, true);
 //console.log("Simple Array Example:", gen.evolve(generations));
 
+var gaussian = require('gaussian');
+var distribution = gaussian(0, 1);
+
+var sample = distribution.random(10);
+
+console.log(sample);
+
 
